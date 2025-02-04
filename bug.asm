@@ -1,0 +1,1 @@
+mov eax, [ebx + 4] ; This instruction might cause an access violation if ebx+4 points to an invalid memory address.
